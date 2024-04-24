@@ -1,0 +1,31 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Cristiano Ronaldo dos Santos Aveiro",
+    "age": 39,
+    "email": "cristianoronaldo@gmail.com"
+}
+
+###
+
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/662991a81934067f9775124f HTTP/1.1
+
+###
+
+PUT http://localhost:9000/api/users/662991a81934067f9775124f HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Neymar da Silva Santos Júnior",
+    "age": 32,
+    "email": "neymarjunior@gmail.com"
+}
+
+###
+
+DELETE http://localhost:9000/api/users/662993273372cdd65b9e5116 HTTP/1.1
