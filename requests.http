@@ -5,7 +5,10 @@ Content-Type: application/json
 {
     "name": "Cristiano Ronaldo dos Santos Aveiro",
     "age": 39,
-    "email": "cristianoronaldo@gmail.com"
+    "email": "cristianoronaldo@gmail.com",
+    "phone": 382383902
+    
+    
 }
 
 ###
@@ -17,15 +20,17 @@ GET http://localhost:9000/api/users/662991a81934067f9775124f HTTP/1.1
 
 ###
 
-PUT http://localhost:9000/api/users/662991a81934067f9775124f HTTP/1.1
+PUT http://localhost:9000/api/users/662990d81934067f9775124d HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Neymar da Silva Santos Júnior",
-    "age": 32,
-    "email": "neymarjunior@gmail.com"
+    "name": "Lionel Messi",
+    "age": 36,
+    "email": "lionelmessi@gmail.com",
+    
+    
 }
 
 ###
 
-DELETE http://localhost:9000/api/users/662993273372cdd65b9e5116 HTTP/1.1
+DELETE http://localhost:9000/api/users/66299863c0231c9671a0fbd8 HTTP/1.1
